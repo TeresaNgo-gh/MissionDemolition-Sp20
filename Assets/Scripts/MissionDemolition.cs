@@ -34,7 +34,7 @@ public class MissionDemolition : MonoBehaviour{
     }
 
     void StartLevel(){
-        if(castle != null){
+        if (castle != null){
             Destroy(castle);
         }
 
@@ -86,7 +86,7 @@ public class MissionDemolition : MonoBehaviour{
         showing = eView;
         switch(showing){
             case "Show Slingshot":
-                FollowCam.POI = null
+                FollowCam.POI = null;
                 uitButton.text = "Show Castle";
                 break;
             case "Show Castle":
